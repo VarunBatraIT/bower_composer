@@ -1,0 +1,24 @@
+{
+    "name": "varunbatrait/bower_composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Varun Batra",
+            "email": "codevarun@gmail.com"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "bower install",
+            "grunt wiredep"
+        ],
+        "post-update-cmd": [
+            "bower install",
+            "grunt wiredep"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/yaml": "~2.6"
+    }
+}
