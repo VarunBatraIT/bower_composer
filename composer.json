@@ -19,6 +19,6 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "symfony/yaml": "~2.6"
+        "mustangostang/spyc": "~0.5@dev"bo
     }
 }

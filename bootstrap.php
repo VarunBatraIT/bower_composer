@@ -7,8 +7,8 @@ class Bootstrap
 
     public function __construct($config_file)
     {
-        $parser = new \Symfony\Component\Yaml\Parser();
-        $this->config = $parser->parse(file_get_contents($config_file));
+        $parser = new Spyc();
+        $this->config = $parser->loadFile($config_file);
     }
 
     public function getConfig()

@@ -4,7 +4,7 @@
     <title><?= $config['page_title'] ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- bower:css -->
-    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
 </head>
 <body>
